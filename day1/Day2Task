@@ -1,0 +1,7 @@
+//Cairo Syntax and Data types
+
+Cairo syntax looks similara like that of rust for instance in varibale declaration
+while declaring varibale we fullcolon to separate it with its type.
+Just like rust we have the unsigned integers ranging fro u8 to u256 but then there is this
+datatype which is felt252 which a variable declared is cairo and not assigned its type is assigned to felt252.
+felt252 is not similar as unsigned integers and one has to use the into and 
