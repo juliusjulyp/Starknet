@@ -1,0 +1,12 @@
+//Cairo Syntax and Data types
+
+Cairo syntax looks similar like that of rust for instance in varibale declaration but there is a little catch in cairo and
+I see it as interesting can't wait to get rocking.
+while declaring varibale we use fullcolon to separate it with its type. And by default if felt252 is always going to be assigned.
+Just like rust we have the unsigned integers ranging fro u8 to u256 but then there is this
+datatype which is felt252, which a variable declared is cairo and not assigned its type is assigned to felt252.
+felt252 is not similar as unsigned integers.
+But regarding not being the same we can still convert it other types like u8 all the way to u256, How??
+Just by the use of (traits::Into) && (traits::TryInto) and it can be done vice versa.
+All thanks to cairo!!
+Cairo also allows us to use stucts and enums to create different types

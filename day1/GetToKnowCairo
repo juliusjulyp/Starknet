@@ -1,8 +1,11 @@
 //Cairo is basically a programming language that was designed for the implementation in virtual CPUs,
 these virtual CPUs are basically for cryptographic measures which implies to high security overrally.
+For instance the implementation of algorithms such as schnorr and BLS. These can be used for safer crptographic measures 
+and thereby brings the knowledge of ZK STARKS.
 
-So why cairo?.. Cairo literally brings the essence that trustworthy data can be
+So why cairo?.. Cairo literally brings the essence that trustworthness in data can be
 verified in trustless computer!! sounds weird but that's how cairo is super cool.
-Cairo is implemented in starknet which is a layer-2 scaling blockchain built on top of Ethereum, so what does starknet do then? First we talked aboot cairo being able to verify transactions in trustless machines or should I say nodes? either way. Therefore starknet is able to verify transactions from one node which we call the prover. Well, does this not sound like resource intensive for just having only one prover rather than all nodes proving the worthiness of a transaction?  Well infact this fast and quicker and less resource intensive reason being that the transaction does not have to pass to all nodes to be valid which might be millions of nodes and thats the main point here.
+Cairo is implemented in starknet which is a layer-2 scaling blockchain built on top of Ethereum, so what does starknet do then? First we talked about cairo being able to verify transactions in trustless machines or should I say nodes? either way. Therefore starknet is able to verify transactions from one node which we call the prover. Well, does this not sound like resource intensive for just having only one prover rather than all nodes proving the worthiness of a transaction?  Well infact this fast and quicker and less resource intensive reason being that the transaction does not have to pass to all nodes to be valid which might be millions of nodes and thats the main point here.
 
-One of the key differences of cairo with other programming languages is that once a value is written to memory is immutable. This sets a key difference in smart contract programming, compared to solidity.
+One of the key differences of cairo with other programming languages is that once a value is written to memory is immutable. This sets a key difference in smart contract programming, compared to other programming language.
+Sounds secure?? Yet to find out in bug hunting!!
